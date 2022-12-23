@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/kubrick-22.08.3.tar.xz",
-                    "sha256": "47e8e9e85e92b99a216f65ddc294addbf1bdf540301f10dfd3c8cd44964e721f",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/kubrick-22.12.0.tar.xz",
+                    "sha256": "26e6b36decf8b38c26a64cfc6c49dbad3352c1a5315088da9230b6749aef6df5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
