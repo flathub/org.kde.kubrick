@@ -1,15 +1,15 @@
 {
     "id": "org.kde.kubrick",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "kubrick",
     "rename-icon": "kubrick",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
-        "--socket=x11",
-        "--socket=wayland",
-        "--device=dri"
+        "--socket=fallback-x11",
+        "--socket=wayland"
     ],
     "modules": [
         "shared-modules/glu/glu-9.json",
@@ -19,8 +19,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/libkdegames-23.08.5.tar.xz",
-                    "sha256": "0ac583f4327d6003782054a9ee3d51c922bcdf04577a3f7f12b3840cabf2efed",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/libkdegames-24.02.1.tar.xz",
+                    "sha256": "494017b065899280f52e90f01c7f50aeea863532836b848fa45f771a2c147105",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kubrick-23.08.5.tar.xz",
-                    "sha256": "75f527aca221e32e87236e867307bab23422766f77faff419dc20fe332620c00",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kubrick-24.02.1.tar.xz",
+                    "sha256": "035c9fb6d9fc528f4928e6432b135cacf718dfbe4701f00d5e63540a96c5680b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
