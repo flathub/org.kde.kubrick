@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.2/src/libkdegames-26.08.2.tar.xz",
-                    "sha256": "64f5c1a0c79833057ff23fa246a93873ad65730c825c2ba46296741bc079d3ae",
+                    "url": "https://download.kde.org/stable/release-service/26.08.3/src/libkdegames-26.08.3.tar.xz",
+                    "sha256": "a543fe657621366b4cd9da7cba56a1844f66f8c9cc9fb616f08f0c5513f33d1a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -44,8 +44,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.2/src/kubrick-26.08.2.tar.xz",
-                    "sha256": "386ccb5cc3f8b1e672482443189377ff1f8729558a22f846e638826376584e62",
+                    "url": "https://download.kde.org/stable/release-service/26.08.3/src/kubrick-26.08.3.tar.xz",
+                    "sha256": "0e5ec83128131fe9e97701e09e8b7a4dad1fffef17e1f39703d039473d6a0cf6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
